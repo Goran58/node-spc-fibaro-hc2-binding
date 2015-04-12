@@ -12,7 +12,7 @@ The module uses SPC Web Gateway REST and Websocket API to get status from the SP
 ### Home Center Global Variables
 NOTE! The global variables are created automatically if they not exists in Home Center 2.
 
-####G_SPC_AREA_MODE_<AREA_ID>
+####G_SPC_AREA_MODE_&lt;AREA_ID&gt;
 AREA_ID is 1 - Number of defined areas.
 Values:
 - "unset"
@@ -21,7 +21,7 @@ Values:
 - "set"_
 - "unknown"
 
-####G_SPC_ZONE_INPUT_<ZONE_ID>
+####G_SPC_ZONE_INPUT_&lt;ZONE_ID&gt;
 ZONE_ID is 1 - Number of defined zones.
 Values:
 - "closed"
@@ -34,7 +34,7 @@ Values:
 - "offline"_
 - "unknown"
 
-####G_SPC_ZONE_STATUS_<ZONE_ID>
+####G_SPC_ZONE_STATUS_&lt;ZONE_ID&gt;
 ZONE_ID is 1 - Number of defined zones.
 Values:
 - "ok"
@@ -46,6 +46,7 @@ Values:
 - "trouble"_
 - "unknown"
 
+### Supported events
 Following events are supported:
 - Zone closed/open  
 - Zone inhibited/de-inhibited  
