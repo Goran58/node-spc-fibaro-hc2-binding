@@ -1,0 +1,15 @@
+{
+  "name": "spc-fibaro-hc2-binding",
+  "version": "0.10.0",
+  "description": "Binding between SPC Web Gateway and Fibaro Home Center 2",
+  "author": "Goran Lundquist <info@lundix.se>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Goran58/node-spc-fibaro-hc2-binding.git"
+  },
+  "dependencies": {
+    "websocket": "*"
+  },
+  "engine": "node 0.10.x",
+  "main": "node-spc-fibaro-hc2-bindning.js"
+}
